@@ -14,6 +14,9 @@ class SideMenuStyle {
   /// Background color of [SideMenuItem] when item is selected
   Color? selectedColor;
 
+  /// Background color of [SideMenuItem] when item is not selected
+  Color? unselectedColor;
+
   /// Color of [SideMenuItem] when mouse hover on that
   Color? hoverColor;
 
@@ -66,6 +69,7 @@ class SideMenuStyle {
     this.compactSideMenuWidth = 50,
     this.backgroundColor,
     this.selectedColor,
+    this.unselectedColor = Colors.transparent,
     this.hoverColor = Colors.transparent,
     this.displayMode = SideMenuDisplayMode.auto,
     this.selectedTitleTextStyle,

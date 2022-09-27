@@ -119,7 +119,7 @@ class _SideMenuItemState extends State<SideMenuItem> {
     } else if (isHovered) {
       return Global.style.hoverColor ?? Colors.transparent;
     } else {
-      return Colors.transparent;
+      return Global.style.unselectedColor ?? Colors.transparent;
     }
   }
 
